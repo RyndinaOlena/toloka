@@ -2,7 +2,7 @@
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import { inter } from "@/app/ui/fonts";
+import { inter } from "./fonts";
 const links = [
   { name: "Головна", href: "/" },
   {
