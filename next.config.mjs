@@ -4,7 +4,7 @@ const nextConfig = {};
 
 // module.exports = {
 //     sassOptions: {
-//         includePaths: [path.join(__dirname, 'styles')],
+//         includePaths: [path.join(__dirname, '_styles')],
 //     },
 // }
 export default nextConfig;

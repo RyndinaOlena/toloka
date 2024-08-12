@@ -2,17 +2,17 @@
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import { inter } from "@/app/ui/fonts";
+import { inter } from "./fonts";
 const links = [
-  { name: "Головна", href: "/dashboard/(overview)" },
+  { name: "Головна", href: "/" },
   {
     name: "Про нас",
-    href: "/dashboard/header/about",
+    href: "/about",
   },
-  { name: "Розклад", href: "/dashboard/header/schedule" },
+  { name: "Розклад", href: "/schedule" },
   {
     name: "Блог",
-    href: "/dashboard/header/blog",
+    href: "/blog",
   },
 ];
 export default function NavLinks() {
@@ -32,7 +32,7 @@ export default function NavLinks() {
               },
             )}
           >
-            <p className="hidden md:block">{link.name}</p>
+            {link.name}
           </Link>
         );
       })}
