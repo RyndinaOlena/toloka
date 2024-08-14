@@ -1,0 +1,25 @@
+.footer {
+  background-color: #F4F4F4;
+  background-image: url("../../img/Background.png");
+  background-size: cover;
+  background-position: center;
+}
+.footer .footerLogoWrapper {
+  margin-left: 38px;
+}
+.footer .footerLogoWrapper .headerLogo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 58px;
+  margin-top: 74px;
+}
+.footer .footerLogoWrapper .headerLogoText {
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 15px;
+}
+.footer .footerLogoWrapper .textLogo {
+  font-size: 16px;
+  font-weight: 400;
+  color: #797979;
+}/*# sourceMappingURL=Footer.module.css.map */

@@ -1,21 +1,43 @@
 .header {
   // todo
-  background-color: deeppink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26px 42px 0 28px;
+
 
   .headerLogoWrapper {
     // todo
+    margin-right: 38px;
 
     .headerLogo {
       // todo
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
     .headerLogoText {
       // todo
+      font-size: 40px;
+      font-weight: 800;
+      padding-left: 15px;
     }
-    .headerNavigation {
-      // todo
-    }
-    .headerAccount {
-      // todo
-    }
+
+    // .headerAccount {
+    //   // todo
+    // }
   }
+}
+
+.headerNavigation {
+  margin-right: 38px;
+}
+
+.btnLogin {
+  background-color: #576D0E;
+  color: white;
+  font-size: 18px;
+  padding: 15px 51px;
+  border-radius: 25px;
 }

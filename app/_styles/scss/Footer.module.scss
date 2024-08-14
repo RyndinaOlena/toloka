@@ -1,3 +1,36 @@
 .footer {
-  background-color: forestgreen;
+  background-color: #F4F4F4;
+  background-image: url('../../img/Background.png');
+  background-size: cover;
+  background-position: center;
+
+  .footerLogoWrapper {
+    // todo
+    margin-left: 38px;
+
+
+    .headerLogo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 58px;
+      margin-top: 74px;
+
+    }
+
+    .headerLogoText {
+      // todo
+      font-size: 40px;
+      font-weight: 800;
+      padding-left: 15px;
+    }
+
+    .textLogo {
+      font-size: 16px;
+      font-weight: 400;
+      color: #797979;
+    }
+  }
+
+
+
 }

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26px 42px 0 28px;
+}
+.header .headerLogoWrapper {
+  margin-right: 38px;
+}
+.header .headerLogoWrapper .headerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .headerLogoWrapper .headerLogoText {
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 15px;
+}
+
+.headerNavigation {
+  margin-right: 38px;
+}
+
+.btnLogin {
+  background-color: #576D0E;
+  color: white;
+  font-size: 18px;
+  padding: 15px 51px;
+  border-radius: 25px;
+}/*# sourceMappingURL=Header.module.css.map */

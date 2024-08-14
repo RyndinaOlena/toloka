@@ -13,16 +13,16 @@ function Header() {
       <div className={styles.headerLogoWrapper}>
         <Link className={styles.headerLogo} href={"/"}>
           <Image src={`/logo.png`} alt="logo" width={55} height={55} />
-          <span className={clsx(styles.headerLogoText, inter.className)}>
+          <span className={clsx(styles.headerLogoText, nunito.className)}>
             Toloka
           </span>
         </Link>
       </div>
-      <div className={styles.headerNavigation}>
+      <div >
         <NavLinks />
       </div>
       <div className={styles.headerAccount}>
-        <Link href="/">УВІЙТИ</Link>
+        <Link className={styles.btnLogin} href="/">УВІЙТИ</Link>
       </div>
     </div>
   );
