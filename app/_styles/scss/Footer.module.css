@@ -1,24 +1,24 @@
-.footer {
-  background-color: #F4F4F4;
-  background-image: url("../../img/Background.png");
+.footerContainer {
+  background: radial-gradient(circle at top right, rgba(124, 159, 12, 0.2) 0.1%, rgba(244, 244, 244, 0) 70%);
+  background-size: cover;
   background-size: cover;
   background-position: center;
 }
-.footer .footerLogoWrapper {
+.footerContainer .footerLogoWrapper {
   margin-left: 38px;
 }
-.footer .footerLogoWrapper .headerLogo {
+.footerContainer .footerLogoWrapper .headerLogo {
   display: flex;
   align-items: center;
   margin-bottom: 58px;
   margin-top: 74px;
 }
-.footer .footerLogoWrapper .headerLogoText {
+.footerContainer .footerLogoWrapper .headerLogoText {
   font-size: 40px;
   font-weight: 800;
   padding-left: 15px;
 }
-.footer .footerLogoWrapper .textLogo {
+.footerContainer .footerLogoWrapper .textLogo {
   font-size: 16px;
   font-weight: 400;
   color: #797979;

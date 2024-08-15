@@ -6,7 +6,8 @@
 
 
     .errors {
-        background-image: url('../../img/backgroundOverlay.png');
+        background: radial-gradient(circle, rgba(124, 159, 12, 0.4) 0.1%, rgba(244, 244, 244, 0) 70%);
+        background-size: cover;
         background-size: cover;
         background-position: center;
         min-height: 100vh;

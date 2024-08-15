@@ -15,8 +15,8 @@ export default function NotFound() {
                 >
                     до сторінки подій
                 </Link>
-                <div className={style.text_notFound} >
-                    <p>Нам шкода, але ми не можемо знайти цю <br />сторінку, або вона більше не доступна.<br />Спробуй скристатись меню.</p>
+                <div className={style.text_not_found} >
+                    <p>Нам шкода, але ми не можемо знайти цю <br />сторінку, або вона більше не доступна.<br />Спробуй скористатись меню.</p>
                 </div>
             </div>
         </main>

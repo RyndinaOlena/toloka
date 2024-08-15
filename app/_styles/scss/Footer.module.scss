@@ -1,13 +1,11 @@
-.footer {
-  background-color: #F4F4F4;
-  background-image: url('../../img/Background.png');
+.footerContainer {
+  background: radial-gradient(circle at top right, rgba(124, 159, 12, 0.2) 0.1%, rgba(244, 244, 244, 0) 70%);
+  background-size: cover;
   background-size: cover;
   background-position: center;
 
   .footerLogoWrapper {
-    // todo
     margin-left: 38px;
-
 
     .headerLogo {
       display: flex;
@@ -18,7 +16,6 @@
     }
 
     .headerLogoText {
-      // todo
       font-size: 40px;
       font-weight: 800;
       padding-left: 15px;
@@ -30,7 +27,4 @@
       color: #797979;
     }
   }
-
-
-
 }

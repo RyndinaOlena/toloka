@@ -1,5 +1,4 @@
-.header {
-  // todo
+.headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,37 +6,40 @@
 
 
   .headerLogoWrapper {
-    // todo
     margin-right: 38px;
 
     .headerLogo {
-      // todo
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .headerLogoText {
-      // todo
       font-size: 40px;
       font-weight: 800;
       padding-left: 15px;
     }
-
-    // .headerAccount {
-    //   // todo
-    // }
   }
-}
 
-.headerNavigation {
-  margin-right: 38px;
-}
+  .headerNavigation {
+    margin-right: 38px;
 
-.btnLogin {
-  background-color: #576D0E;
-  color: white;
-  font-size: 18px;
-  padding: 15px 51px;
-  border-radius: 25px;
+
+  }
+
+  .navLinksSelected {
+    font-size: 18px;
+    line-height: 22px;
+    color: #576D0E;
+    border-bottom: 1px solid #576D0E;
+
+  }
+
+  .btnLogin {
+    background-color: #576D0E;
+    color: white;
+    font-size: 18px;
+    padding: 15px 51px;
+    border-radius: 25px;
+  }
 }

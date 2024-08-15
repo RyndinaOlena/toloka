@@ -9,7 +9,7 @@ import clsx from "clsx";
 
 function Header() {
   return (
-    <div className={styles.header}>
+    <div className={styles.headerContainer}>
       <div className={styles.headerLogoWrapper}>
         <Link className={styles.headerLogo} href={"/"}>
           <Image src={`/logo.png`} alt="logo" width={55} height={55} />

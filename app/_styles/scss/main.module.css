@@ -1,8 +1,3 @@
-.html {
-  height: 100%;
-  margin: 0;
-}
-
 .mainStyle {
   display: flex;
   flex-direction: column;
@@ -21,11 +16,10 @@
   margin-bottom: 100px;
 }
 .wrapperError .errors {
-  background-image: url("../../img/backgroundOverlay.png");
+  background: radial-gradient(circle, rgba(124, 159, 12, 0.4) 0.1%, rgba(244, 244, 244, 0) 70%);
   background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  min-width: 100vh;
+  height: 100vh;
+  width: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,7 +49,7 @@
   border-radius: 25px;
   margin-bottom: 46px;
 }
-.wrapperError .errors .text_notFound {
+.wrapperError .errors .text_not_found {
   display: flex;
   align-items: center;
   text-align: center;

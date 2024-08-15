@@ -1,28 +1,32 @@
-.header {
+.headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 26px 42px 0 28px;
 }
-.header .headerLogoWrapper {
+.headerContainer .headerLogoWrapper {
   margin-right: 38px;
 }
-.header .headerLogoWrapper .headerLogo {
+.headerContainer .headerLogoWrapper .headerLogo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header .headerLogoWrapper .headerLogoText {
+.headerContainer .headerLogoWrapper .headerLogoText {
   font-size: 40px;
   font-weight: 800;
   padding-left: 15px;
 }
-
-.headerNavigation {
+.headerContainer .headerNavigation {
   margin-right: 38px;
 }
-
-.btnLogin {
+.headerContainer .navLinksSelected {
+  font-size: 18px;
+  line-height: 22px;
+  color: #576D0E;
+  border-bottom: 1px solid #576D0E;
+}
+.headerContainer .btnLogin {
   background-color: #576D0E;
   color: white;
   font-size: 18px;

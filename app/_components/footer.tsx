@@ -1,16 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import { inter, nunito } from "./fonts";
-import NavLinks from "./nav-links";
+import { nunito } from "./fonts";
 import Link from "next/link";
 import clsx from "clsx";
 
 import styles from "../_styles/scss/Footer.module.scss";
 const Footer = () => {
-  return <div className={styles.footer}>
+  return <div className={styles.footerContainer}>
     <div className={styles.footerLogoWrapper}>
       <Link className={styles.headerLogo} href={"/"}>
-        <Image src={`/logo.png`} alt="logo" width={55} height={55} />
+        <Image src={"/logo.png"} alt="logo" width={55} height={55} />
         <span className={clsx(styles.headerLogoText, nunito.className)}>
           Toloka
         </span>
