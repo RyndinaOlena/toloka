@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import style from './_styles/scss/main.module.scss'
+import style from './_styles/scss/errors.module.scss'
 import { inter, nunito } from "../app/_components/fonts";
 import clsx from "clsx";
 export default function NotFound() {
