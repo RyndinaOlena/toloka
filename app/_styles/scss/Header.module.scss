@@ -4,7 +4,6 @@
   align-items: center;
   margin: 26px 42px 0 28px;
 
-
   .headerLogoWrapper {
     margin-right: 38px;
 
@@ -23,23 +22,12 @@
 
   .headerNavigation {
     margin-right: 38px;
-
-
   }
 
   .navLinksSelected {
     font-size: 18px;
     line-height: 22px;
-    color: #576D0E;
-    border-bottom: 1px solid #576D0E;
-
-  }
-
-  .btnLogin {
-    background-color: #576D0E;
-    color: white;
-    font-size: 18px;
-    padding: 15px 51px;
-    border-radius: 25px;
+    color: #576d0e;
+    border-bottom: 1px solid #576d0e;
   }
 }

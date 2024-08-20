@@ -4,6 +4,7 @@ import NavLinks from "./nav-links";
 import Link from "next/link";
 import React from "react";
 
+import scss from "../_styles/scss/button.module.scss";
 import styles from "../_styles/scss/Header.module.scss";
 import clsx from "clsx";
 
@@ -18,11 +19,13 @@ function Header() {
           </span>
         </Link>
       </div>
-      <div >
+      <div>
         <NavLinks />
       </div>
       <div className={styles.headerAccount}>
-        <Link className={styles.btnLogin} href="/">УВІЙТИ</Link>
+        <Link className={scss.btnLogin} href="/">
+          УВІЙТИ
+        </Link>
       </div>
     </div>
   );

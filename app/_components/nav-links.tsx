@@ -3,7 +3,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
 
-import styles from '../_styles/scss/Header.module.scss'
+import styles from "../_styles/scss/Header.module.scss";
 import NotFound from "../not-found";
 const links = [
   { name: "Головна", href: "/" },
@@ -29,20 +29,14 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx(
-              styles.headerNavigation,
-              {
-                [styles.navLinksSelected]
-                  : pathname === link.href,
-              },
-            )}
+            className={clsx(styles.headerNavigation, {
+              [styles.navLinksSelected]: pathname === link.href,
+            })}
           >
             {link.name}
           </Link>
-
         );
       })}
     </div>
   );
 }
-

@@ -5,7 +5,7 @@ import Header from "./_components/header";
 import Footer from "./_components/footer";
 import clsx from "clsx";
 import "./globals.css";
-import style from './_styles/scss/main.module.scss'
+import style from "./_styles/scss/main.module.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
