@@ -40,6 +40,6 @@ next-env.d.ts
 
 # Compiled CSS
 
-/css
+#/css
 app/_styles/scss/*.css
 app/_styles/scss/*.css.map
