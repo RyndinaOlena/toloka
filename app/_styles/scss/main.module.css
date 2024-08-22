@@ -1,8 +1,0 @@
-.mainStyle {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-.mainStyle .content {
-  flex: 1;
-}/*# sourceMappingURL=main.module.css.map */

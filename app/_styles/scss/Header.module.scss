@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 26px 42px 0 28px;
+  position: relative;
 
   .headerLogoWrapper {
     margin-right: 38px;
@@ -22,6 +23,10 @@
 
   .headerNavigation {
     margin-right: 38px;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
 
   .navLinksSelected {
@@ -29,5 +34,21 @@
     line-height: 22px;
     color: #576d0e;
     border-bottom: 1px solid #576d0e;
+  }
+
+  .navigation_btn {
+    background-color: inherit;
+    border: none;
+    color: black;
+    box-shadow: none;
+
+    @media (min-width: 600px) {
+      display: none;
+    }
+  }
+
+  .menu_navigate {
+    position: absolute;
+    top: 100%
   }
 }

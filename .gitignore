@@ -41,5 +41,5 @@ next-env.d.ts
 # Compiled CSS
 
 #/css
-/app/_styles/scss/*.css
-/app/_styles/scss/*.css.map
+#/app/_styles/scss/*.css
+#/app/_styles/scss/*.css.map
