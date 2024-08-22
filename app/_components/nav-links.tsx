@@ -2,7 +2,9 @@
 import Link from "next/link";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import { inter } from "./fonts";
+
+import styles from "../_styles/scss/Header.module.scss";
+import NotFound from "../not-found";
 const links = [
   { name: "Головна", href: "/" },
   {
@@ -17,7 +19,9 @@ const links = [
 ];
 export default function NavLinks() {
   const pathname = usePathname();
-
+  if (!pathname) {
+    <NotFound />;
+  }
   return (
     <div className="flex">
       {links.map((link) => {
@@ -25,12 +29,9 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx(
-              `text-black text-lg font-medium text-slate-800 hover:text-lime-600 grow mx-38 ${inter.className} `,
-              {
-                "text-lime-600": pathname === link.href,
-              },
-            )}
+            className={clsx(styles.headerNavigation, {
+              [styles.navLinksSelected]: pathname === link.href,
+            })}
           >
             {link.name}
           </Link>

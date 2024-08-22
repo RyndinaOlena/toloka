@@ -1,3 +1,134 @@
-.footer {
-  background-color: forestgreen;
+.footerContainer {
+  background: radial-gradient(
+    circle at right,
+    rgba(124, 159, 12, 0.2) 0.1%,
+    rgba(244, 244, 244, 0) 70%
+  );
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 42px 0 0;
+  padding-bottom: 86px;
+
+  .footerLogoWrapper {
+    margin-left: 38px;
+    width: 50%;
+
+    .headerLogo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 58px;
+      margin-top: 74px;
+    }
+
+    .headerLogoText {
+      font-size: 40px;
+      font-weight: 800;
+      padding-left: 15px;
+    }
+
+    .textLogo {
+      font-size: 16px;
+      font-weight: 400;
+      color: #797979;
+    }
+  }
+
+  .footer_navigation_container {
+    width: 50%;
+
+    .navigation {
+      display: flex;
+      margin-top: 90px;
+      justify-content: space-between;
+
+      .navigation_title {
+        color: rgba(87, 109, 14, 1);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24.5px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+
+      .navigation_link {
+        display: flex;
+        flex-direction: column;
+
+        .footer_navigation {
+          color: rgba(121, 121, 121, 1);
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22px;
+          margin-bottom: 9px;
+        }
+      }
+
+      .social_title {
+        color: rgba(87, 109, 14, 1);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24.5px;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+      }
+
+      .social_icon_container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 9px;
+
+        .social_icon_img {
+          background-color: rgba(51, 61, 53, 1);
+          color: white;
+          padding: 6px;
+          border-radius: 50%;
+          display: inline-block;
+          font-size: 12px;
+        }
+
+        .social_text {
+          color: rgba(121, 121, 121, 1);
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .address {
+      .address_text {
+        color: rgba(121, 121, 121, 1);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 9px;
+      }
+    }
+  }
+}
+
+.footer_bottom {
+  background: radial-gradient(
+    circle at right,
+    rgba(124, 159, 12, 0.2) 0.1%,
+    rgba(244, 244, 244, 0) 70%
+  );
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  border-top: 0.1px solid rgba(121, 121, 121, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+
+  .footer_bottom_text {
+    color: rgba(187, 187, 187, 1);
+  }
 }
