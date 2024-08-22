@@ -74,10 +74,13 @@ const Footer = () => {
                 );
               })}
             </div>
-            <div className={styles.social_icon}>
-              <h2 className={clsx(styles.navigation_title, nunito.className)}>
+            <div className={styles.navigation_container}>
+              <h2
+                className={clsx(styles.navigation_title_non, nunito.className)}
+              >
                 Ми в соцмережах
               </h2>
+              <div />
               <div className={styles.social_icon_container}>
                 <div className={styles.social_icon_img}>
                   <PiInstagramLogoBold />
