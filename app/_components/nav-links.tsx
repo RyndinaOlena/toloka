@@ -29,8 +29,8 @@ export default function NavLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx(styles.headerNavigation, {
-              [styles.navLinksSelected]: pathname === link.href,
+            className={clsx(styles.header_navigation, {
+              [styles.nav_links_selected]: pathname === link.href,
             })}
           >
             {link.name}

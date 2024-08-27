@@ -1,39 +1,54 @@
-.headerContainer {
+.header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 26px 42px 0 28px;
   position: relative;
 
-  .headerLogoWrapper {
+  .header_logo_wrapper {
     margin-right: 38px;
 
-    .headerLogo {
+    .header_logo {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    .headerLogoText {
+    .header_logo_text {
       font-size: 40px;
       font-weight: 800;
       padding-left: 15px;
+
+      @media (max-width: 600px) {
+        font-size: 20px;
+      }
     }
   }
 
-  .headerNavigation {
+  .header_navigation {
     margin-right: 38px;
+    text-wrap: nowrap;
+
+    @media (max-width: 900px) {
+      font-size: 14px;
+      margin-right: 25px;
+    }
 
     @media (max-width: 600px) {
       display: none;
     }
   }
 
-  .navLinksSelected {
+  .nav_links_selected {
     font-size: 18px;
     line-height: 22px;
     color: #576d0e;
     border-bottom: 1px solid #576d0e;
+
+    @media (max-width: 900px) {
+      font-size: 16px;
+      margin-right: 30px;
+    }
   }
 
   .navigation_btn {
@@ -42,13 +57,36 @@
     color: black;
     box-shadow: none;
 
+    @media (max-width: 300px) {
+      font-size: 10px;
+      padding: 0;
+    }
+
     @media (min-width: 600px) {
       display: none;
+      padding: 0;
+      font-size: 10px;
     }
   }
+}
 
-  .menu_navigate {
-    position: absolute;
-    top: 100%
+.menu_navigate {
+  background-color: #576d0e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+
+  .menu_navigate_link {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
