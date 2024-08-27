@@ -40,15 +40,15 @@ const Footer = () => {
   }
   return (
     <div>
-      <div className={styles.footerContainer}>
-        <div className={styles.footerLogoWrapper}>
-          <Link className={styles.headerLogo} href={"/"}>
+      <div className={styles.footer_container}>
+        <div className={styles.footer_logo_wrapper}>
+          <Link className={styles.header_logo} href={"/"}>
             <Image src={"/logo.png"} alt="logo" width={55} height={55} />
-            <span className={clsx(styles.headerLogoText, nunito.className)}>
+            <span className={clsx(styles.header_logo_text, nunito.className)}>
               Toloka
             </span>
           </Link>
-          <p className={styles.textLogo}>
+          <p className={styles.text_logo}>
             Разом ми сильніші і можемо досягти
             <br /> чого завгодно, бо ми українці!
           </p>
@@ -66,7 +66,7 @@ const Footer = () => {
                     key={link.name}
                     href={link.href}
                     className={clsx(styles.footer_navigation, inter.className, {
-                      [styles.navLinksSelected]: pathname === link.href,
+                      [styles.navLinks_selected]: pathname === link.href,
                     })}
                   >
                     {link.name}

@@ -23,11 +23,11 @@ function Header() {
 
   return (
     <div>
-      <div className={styles.headerContainer}>
-        <div className={styles.headerLogoWrapper}>
-          <Link className={styles.headerLogo} href={"/"}>
+      <div className={styles.header_container}>
+        <div className={styles.header_logo_wrapper}>
+          <Link className={styles.header_logo} href={"/"}>
             <Image src={`/logo.png`} alt="logo" width={55} height={55} />
-            <span className={clsx(styles.headerLogoText, nunito.className)}>
+            <span className={clsx(styles.header_logo_text, nunito.className)}>
               Toloka
             </span>
           </Link>
@@ -35,8 +35,8 @@ function Header() {
         <div>
           <NavLinks />
         </div>
-        <div className={styles.headerAccount}>
-          <Link className={scss.btnLogin} href="/">
+        <div className={styles.header_account}>
+          <Link className={scss.btn_login} href="/">
             УВІЙТИ
           </Link>
         </div>

@@ -1,20 +1,20 @@
-.headerContainer {
+.header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 26px 42px 0 28px;
   position: relative;
 
-  .headerLogoWrapper {
+  .header_logo_wrapper {
     margin-right: 38px;
 
-    .headerLogo {
+    .header_logo {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
-    .headerLogoText {
+    .header_logo_text {
       font-size: 40px;
       font-weight: 800;
       padding-left: 15px;
@@ -25,7 +25,7 @@
     }
   }
 
-  .headerNavigation {
+  .header_navigation {
     margin-right: 38px;
     text-wrap: nowrap;
 
@@ -39,7 +39,7 @@
     }
   }
 
-  .navLinksSelected {
+  .nav_links_selected {
     font-size: 18px;
     line-height: 22px;
     color: #576d0e;
