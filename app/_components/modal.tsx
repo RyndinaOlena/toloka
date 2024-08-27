@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import clsx from "clsx";
 
 import React from "react";
 import NotFound from "../not-found";

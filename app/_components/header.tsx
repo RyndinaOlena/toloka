@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { inter, nunito } from "./fonts";
+import { nunito } from "./fonts";
 import NavLinks from "./nav-links";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -8,10 +8,9 @@ import React, { useState } from "react";
 import scss from "../_styles/scss/button.module.scss";
 import styles from "../_styles/scss/Header.module.scss";
 import clsx from "clsx";
-import Modal from "./modal";
 import { IoIosArrowDown } from "react-icons/io";
 import Button from "@mui/material/Button";
-import ModalComponent from "../_components/modal"; // Проверьте путь к вашему компоненту
+import ModalComponent from "../_components/modal";
 import { IoIosArrowUp } from "react-icons/io";
 
 function Header() {
