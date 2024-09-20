@@ -25,7 +25,7 @@ function Header() {
       <div className={styles.header_container}>
         <div className={styles.header_logo_wrapper}>
           <Link className={styles.header_logo} href={"/"}>
-            <Image src={`/logo.png`} alt="logo" width={55} height={55} />
+            <Image src={'/logo.png'} alt="logo" width={55} height={55} />
             <span className={clsx(styles.header_logo_text, nunito.className)}>
               Toloka
             </span>
