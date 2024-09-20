@@ -1,10 +1,7 @@
 "use client";
 import Link from "next/link";
-
 import React from "react";
-import NotFound from "../not-found";
-import { usePathname } from "next/navigation";
-import styles from "../_styles/scss/Header.module.scss";
+import styles from "../_styles/scss/Modal.module.scss";
 
 const links = [
   { name: "Головна", href: "/" },
@@ -20,10 +17,7 @@ const links = [
 ];
 const ModalComponent = (props: any) => {
   const { handleClose } = props;
-  const pathname = usePathname();
-  if (!pathname) {
-    <NotFound />;
-  }
+
   return (
     <div className={styles.menu_navigate}>
       <div className={styles.menu_navigate_link}>

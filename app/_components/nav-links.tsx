@@ -4,7 +4,6 @@ import clsx from "clsx";
 import { usePathname } from "next/navigation";
 
 import styles from "../_styles/scss/Header.module.scss";
-import NotFound from "../not-found";
 const links = [
   { name: "Головна", href: "/" },
   {
@@ -19,9 +18,7 @@ const links = [
 ];
 export default function NavLinks() {
   const pathname = usePathname();
-  if (!pathname) {
-    <NotFound />;
-  }
+
   return (
     <div className="flex">
       {links.map((link) => {
